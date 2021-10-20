@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/Noticias.css">
+</head>
+<body>
+    <script src="./bootstrap-5.1.3-dist/js/jquery.js"></script>
+    <script src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./paginaweb.html">Videojuegos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./paginaweb.html" sr>Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Noticias.html">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Formulario.html">Formulario</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Blog.html">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <br>
+    <div class="container overflow-hidden">
+      <div class="row gy-3">
+        <div class="col-5">
+          <div class="p-3 border bg-light" id="titulos">Formulario
+            <br>
+            <br>
+            <form class="formulario">
+              <div class="row mb-3">
+                <label for="inputname" class="col-sm-2 col-form-label"><p>Apodo</p></label>
+                <div class="col-sm-10">
+                  <input type="name" class="form-control" id="inputname">
+                </div>
+              </div>
+              <legend class="col-form-label col-sm-2 pt-0"><p>Comentanos</p></legend>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-7">
+          <div class="p-3 border bg-light" id="titulos">Noticias
+            <br>
+            <div class="noticias">
+              <a href="https://www.3djuegos.com/noticias-ver/216891/minecraft-es-uno-de-los-videojuegos-mas-exitosos-solo-en/" target="_black">
+              <p>Minecraft es uno de los videojuegos más exitosos:</p></a>
+              <div class="row align-items-start">
+                <div class="col">
+                  <p>Casi 10 años después de su lanzamiento, el juego de Mojang sigue acumulando cifras elevadísimas de descargas.</p>
+                </div>
+                <div class="col">
+                  <img src="./imagenes/minecraft.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="noticias">
+              <a href="https://www.levelup.com/noticias/607531/Among-Us-ya-no-es-tan-popular-como-antes-pero-sigue-en-la-cima" target="_black">
+              <p>Among Us ya no es tan popular como antes, pero sigue en la cima:</p></a>
+              <div class="row align-items-start">
+                <div class="col">
+                  <p>Among us supero al segundo videojuego mas popular de la lista por casi 3 veces, este juego seria, "Roblox".</p>
+                </div>
+                <div class="col">
+                  <img src="./imagenes/among us.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <footer>
+      Presentado por Tomás Gómez
+    </footer> 
+
+</body>
+</html>

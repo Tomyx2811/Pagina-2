@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+a {
+    font-family: cursive;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    font-size: 20px;
+}
+
+.imagen1 {
+    width: 294px;
+}
+
+.imagen {
+    width: 280px;
+}
+
+.imagen2 {
+    width: 271px;
+}
+
+.imagen3 {
+    width: 288px;
+}
+
+.imagen4 {
+    width: 290px;
+}
+
+.container {
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+.titulos {
+    margin-bottom: 10px;
+}
+
